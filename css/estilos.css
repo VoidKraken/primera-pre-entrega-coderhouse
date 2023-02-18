@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+li, a{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.nav{
+    position: relative;
+    right: 100px;
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a{
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.nav li a:hover{
+    color: #a90000;
+}
+.logo{
+    position: relative;
+    left: 200px;
+    height: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: black;
+    bottom: 0;
+}
+h6{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 800;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    position: relative;
+    left: 220px;
+}
+.footer ul a{
+    font-size: larger;
+    text-transform: uppercase;
+
+}
+.footer li{
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+    right: 100px;
+}
+.footer li a:hover{
+    color: #a90000;
+}
+
+/* VIDEO */
+.video div iframe{
+    position: relative;
+    left: 400px;   
+}
+/* ACERCA */
+
+/* ALBUM */
+.album div img{
+    position: relative;
+    left: 400px;   
+}
+/* GALERIA */
+.galeria div img{
+    position: relative;
+    left: 400px;   
+}
+/* ELIMINO EL STICKY PARA QUE NO MOLESTE EL HEADER */
+.paginasHeader {
+    position: unset;
+}
